@@ -8,8 +8,25 @@ document.addEventListener("DOMContentLoaded", function() {
   const searchResults = JSON.parse(sessionStorage.getItem('searchResults'));
   const presentations = searchResults.presentations;
 
+  const days = searchResults.data.days;
 
-  displaySearchResults(presentations, day, keyword); // Pass the day parameter
+  for (const day of days) {
+    for (const session of day.sessions) {
+      for (const presentation of session.presentations) {
+
+        // Match the presentation with the corresponding day
+        if (presentation.title !== "") {
+          const matchingPresentation = presentations.find(p => session.title==p.session.title && p.presentation.title === presentation.title);
+          if (matchingPresentation) {
+            matchingPresentation.day = day.day;
+            console.log(presentation.title, day.day)
+          }
+        }
+      }
+    }
+}
+
+  displaySearchResults(presentations, keyword); // Pass the day parameter
 
   // Back button click event
   const backButton = document.querySelector('.back-link a');
@@ -35,7 +52,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-function displaySearchResults(presentations, day, keyword) {
+function displaySearchResults(presentations, keyword) {
+  console.log(presentations)
   const searchResultsElement = document.getElementById('search-results');
   searchResultsElement.innerHTML = ''; // Clear existing results
 
@@ -50,6 +68,7 @@ function displaySearchResults(presentations, day, keyword) {
   presentations.forEach(presentationData => {
     const presentation = presentationData.presentation;
     const session = presentationData.session;
+    const day = presentationData.day;
 
     const listItem = document.createElement('li');
     listItem.classList.add('search-result');
