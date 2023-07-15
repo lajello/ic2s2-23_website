@@ -140,7 +140,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room C",
+                    "room": "Room D",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T1",
@@ -164,7 +164,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room C",
+                    "room": "Room D",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T1_1",
@@ -236,7 +236,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room D",
+                    "room": "Room E",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T2",
@@ -260,7 +260,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room D",
+                    "room": "Room E",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T2_1",
@@ -332,7 +332,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room E",
+                    "room": "Room C",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T3",
@@ -356,7 +356,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room E",
+                    "room": "Room C",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T3_1",
@@ -428,7 +428,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room C",
+                    "room": "Room D",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T5",
@@ -452,7 +452,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room C",
+                    "room": "Room D",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T5_1",
@@ -524,7 +524,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room D",
+                    "room": "Room E",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T6",
@@ -548,7 +548,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room D",
+                    "room": "Room E",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T6_1",
@@ -620,7 +620,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room E",
+                    "room": "Room C",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T7",
@@ -644,7 +644,7 @@
                             "poster_board_id": ""
                         }
                     ],
-                    "room": "Room E",
+                    "room": "Room C",
                     "color": "#ECF8F9",
                     "type": "tutorial",
                     "sessionId": "T7_1",
